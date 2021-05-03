@@ -1,0 +1,87 @@
+.section__search {
+    padding: 10rem 18rem;
+    font-size: 2rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(img/slider2\ background.png);
+    min-height: 50vh;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+.search__heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search__heading h4{
+    margin-right: 1.5rem;
+}
+#sort {
+    border: 1px solid #ccc;   
+    border-radius: 5px;
+    outline: none;
+}
+.dist__form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+#state,
+.search__button,
+#town {
+    flex: 1;
+    border-radius: 1rem;
+    outline: none;
+    padding: 1.5rem 2rem;
+}
+.search__button {
+    background-color: rgb(1, 139, 31);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border: none;
+    transition: all .3s ease-in;
+}
+.search__button:hover,
+.find__button:hover {
+    background-color: rgb(19, 168, 51);
+}
+
+#state,
+#town {
+    background-color: rgba(154, 207, 130, 0.15);
+    border: 1.5px solid rgb(1, 139, 31);    
+    margin-right: 4rem;
+}
+.find__button {
+    padding: 2rem;
+    width: 60%;
+    font-size: 2rem;
+    display: none;
+}
+
+.dist__page {
+    margin-top: 8rem;
+}
+.more__distributors,
+.search {
+    margin-left: 9rem;
+    text-decoration: none;
+    text-align: left;
+}
+.search {
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.more__distributors {
+    font-size: 1.2rem;
+}
+
+.dist__square {
+    bottom: 5%;
+    left: 15%;
+    transform: rotate(20deg);
+}
+.dist__circle {
+    bottom: 10%;
+    right: 40%;
+}

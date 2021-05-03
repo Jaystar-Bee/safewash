@@ -1,3 +1,5 @@
+/*4K Laptop*/
+
 @media only screen and (min-width: 112.5em) {
     html {
         font-size: 75%;
@@ -78,6 +80,14 @@
         .carousel2__text-2 {
             margin-bottom: 2rem;
         }
+
+        .more__distributors,
+        .search {
+            margin-left: 6rem;
+        }
+        .section__search {
+            padding: 10rem 16rem;
+        }
 }
 @media only screen and (max-width: 56.25em){
     .contentration1 {
@@ -128,6 +138,14 @@
     .carousel4__text-2 {
         margin-bottom: 7rem;
     }
+    .more__distributors,
+    .search {
+        margin-left: 5rem;
+    }
+    .section__search {
+        padding: 10rem 12rem 4rem 12rem;
+        background-size: 40%;
+    }
 
 }
 @media only screen and (max-width: 50em) {
@@ -142,9 +160,18 @@
     .information__container-min img {
         height: 4rem;
     }
-    .testimony__video-cover {
-
+    .testimony__video-cover,
+    .video__ring {
         width: 100%;
+    }
+    .video__ring {
+        left: 0%;
+    }
+    .video1 {
+        transform: rotate(2deg);
+    }
+    .video2 {
+        transform: rotate(-2deg);
     }
     .distributor__heading {
         width: 70%;
@@ -176,6 +203,16 @@
         width: 130%;
     }
 
+
+    .more__distributors,
+    .search {
+        margin-left: 4rem;
+    }
+    .section__search {
+        padding: 10rem 8rem 3rem 8rem;
+        background-size: 50%;
+    }
+
 }
 @media only screen and (max-width: 45.7em) {
     .carousel1__picture img {
@@ -194,6 +231,7 @@
         height: 60%;
         margin-right: -28rem;
     }
+
 }
 @media only screen and (max-width: 40.6em ){
     
@@ -245,8 +283,6 @@
         margin-right: -28rem;
     }
 }
-
-
 
 
 @media only screen and (max-width: 35em) {
@@ -399,8 +435,6 @@
     }
 
 
-
-
     .carousel__navigation {
         bottom: 5%;
     }
@@ -463,7 +497,11 @@
     .navbar__cover {
         display: none;
     }
-    .small__navbar {
+    .small__navbar,
+    .nav__circle,
+    .nav__square1,
+    .nav__square2,
+    .nav__square3 {
         display: block;
     }
 
@@ -485,6 +523,37 @@
     .distributor__footer {
         width: 100%;
     }
+
+
+    .more__distributors,
+    .search {
+        margin-left: 3rem;
+    }
+    .section__search {
+        padding: 10rem 4rem 1rem 4rem;
+        background-size: 40%;
+    }
+    .dist__form {
+        flex-direction: column;
+    }
+    .dist__circle,
+    .dist__square{
+    display: block;
+    }
+    #state,
+    #town {
+        margin-bottom: 2rem;
+    }
+    .search__button {
+        display: none;;
+    }
+    .find__button {
+        display: block;
+    }
+    .section__search {
+        padding: 10rem 4rem 1rem 4rem;
+        background-size: 60%;
+    }
 }
 @media only screen and (max-width: 32em) {
     
@@ -502,6 +571,14 @@
     }
     .carousel3__text-2 {
         font-size: 4.5rem;
+    }
+    .more__distributors,
+    .search {
+        margin-left: 1rem;
+    }
+    .section__search {
+        padding: 10rem 3rem 1rem 3rem;
+        background-size: 70%;
     }
 }
 @media only screen and (max-width: 28em) {
@@ -527,6 +604,14 @@
     .carousel4__text {
         font-size: 1.8rem;
     }
+    .more__distributors,
+    .search {
+        margin-left: 0rem;
+    }
+    .section__search {
+        padding: 10rem 2rem 1rem 2rem;
+        background-size: 80%;
+    }
 }
 @media only screen and (max-width: 25em) {
     .carousel1__text {
@@ -537,6 +622,9 @@
     }
     .carousel2__picture img {
         margin-top: 2rem;
+    }
+    .section__search {
+        background-size: 100%;
     }
 }
 @media only screen and (max-width: 20em) {
