@@ -245,7 +245,7 @@
         width: 80%;
     }
     .nav, .slide1, .slide3 {
-        padding-left: 4srem;
+        padding-left: 3rem;
     }
     .information__container {
         width: 100%;
@@ -456,6 +456,9 @@
     }
     .about__picture {
         display: none;
+    }
+    .about__text {
+        text-align: center;
     }
     .about__text p {
         width: 100%;

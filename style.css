@@ -28,9 +28,12 @@
 
 html {
     font-size: 62.5%;
-    width:100%;
+   
     overflow-x: hidden;
    
+}
+.dont {
+    display: none;
 }
 
 body {
@@ -39,6 +42,8 @@ body {
     line-height: 1.7;
     box-sizing: border-box;
     color: var(--color-8);
+    position: relative;
+    width:100vw;
 
 }
 
@@ -48,13 +53,13 @@ body {
     display: none;
 }
 .small__navbar {
-    position: fixed;
+    position: absolute;
     display: none;
     z-index: 1000;
     width: 3rem;
     height: 3rem;
-    top: 2%;
-    right: 5%;
+    top: .4%;
+    right: 2%;
 }
 .navbar__line1, 
 .navbar__line2,
@@ -66,6 +71,7 @@ body {
 }
 .navbar__line1 {
     width: 16px;
+    transition: all .2s ease-in;
 }
 .navbar__line2 {
     width: 22px;
@@ -74,6 +80,21 @@ body {
 .navbar__line3 {
     width: 16px;
     top: 58%;
+    transition: all .2s ease-in;
+}
+.navbar__checkbox:checked ~ .small__navbar .navbar__line1{
+
+    transform: rotate(45deg);
+    width: 3rem;
+    top: 28%;
+}
+.navbar__checkbox:checked ~ .small__navbar .navbar__line2 {
+    display: none;
+}
+.navbar__checkbox:checked ~ .small__navbar .navbar__line3 {
+    transform: rotate(-45deg);
+    width: 3rem;
+    top: 28%;
 }
 
 
@@ -209,7 +230,6 @@ body {
 
 /* CAROUSEL */
 .carousel {
-    width: 400vw;
     display: flex;
     max-height: inherit;
     animation: slide 30s infinite ease-in-out 10s;
