@@ -68,7 +68,8 @@
         .carousel1__square5{
             left: 80%;
         }
-        .carousel__navigation {
+        .carousel__navigation,
+        .navigation__background {
             bottom: 20%;
         }
         .carousel2__text {
@@ -196,7 +197,8 @@
         padding: 10rem 6rem ;
         font-size: 1.5rem;
     }
-    .carousel__navigation {
+    .carousel__navigation,
+    .navigation__background {
         bottom: 15%;
     }
     .carousel2__picture img{
@@ -435,7 +437,8 @@
     }
 
 
-    .carousel__navigation {
+    .carousel__navigation,
+    .navigation__background {
         bottom: 5%;
     }
 
