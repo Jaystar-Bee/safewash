@@ -335,6 +335,7 @@
     }
     .carousel1__text-1 {
         margin-bottom: 3rem;
+        font-size: 2.8rem;
     }
     .carousel1__text-2 {
         width: 100%;
@@ -400,7 +401,7 @@
     }
     .carousel3__text-1,
     .carousel3__text-2 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .carousel3__text-2 {
         margin-bottom: 10rem;
@@ -424,7 +425,7 @@
         margin-right: -2rem;
     }
     .carousel4__text {
-        font-size: 2rem;
+        font-size: 2.3rem;
         width: 65%;
         left: 4%;
         margin-top: 15rem;
@@ -588,7 +589,7 @@
         padding-left: 2rem;
     }
     .carousel3__text-2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .more__distributors,
     .search {
@@ -622,7 +623,10 @@
         font-size: 3rem;
     }
     .carousel4__text {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+    .carousel4__text-1 {
+        font-size: 2rem;
     }
     .more__distributors,
     .search {
@@ -637,10 +641,10 @@
 /* 400px */
 @media only screen and (max-width: 25em) {
     .carousel1__text {
-        font-size: 2.3rem;
+        font-size: 2.4rem;
     }
     .carousel1__text-1 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
     .carousel2__picture img {
         margin-top: 2rem;
