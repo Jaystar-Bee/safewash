@@ -123,6 +123,8 @@ body {
     opacity: 1;
 
 }
+
+/* Mobile Navigation*/
 .small__navigation-cover {
     position: fixed;
     z-index: 500;
@@ -161,6 +163,8 @@ body {
 }
 
 /*Navabar for Smartphones ends*/
+
+/* General button*/
 .btn__all {
     background-color: rgb(1, 139, 31);
     border-radius: 1rem 1rem 1rem 0;
@@ -175,6 +179,9 @@ body {
 .btn__all:hover {
     background-color: rgb(19, 168, 51);
 }
+
+/* Carousel Section*/
+
 .section__carousel {
     overflow: hidden;
     max-height: 100vh;
@@ -233,6 +240,8 @@ body {
 .carousel__slide {
     max-height: inherit;
 }
+
+/*Slides*/
 
 .slide1,
 .slide2,
@@ -379,6 +388,7 @@ body {
 
 /* CAROUSEL 1 ENDS*/
 
+
 /* CAROUSEL 2 BEGINS*/
 
 .slide2 {
@@ -435,9 +445,8 @@ body {
     right: 35%;
     bottom: 55%;
 }
-
-
 /* CAROUSEL 2 ENDS*/
+
 
 /* CAROUSEL 3 BEGINS*/
 .slide3,
@@ -458,9 +467,6 @@ body {
 }
 .carousel3__text-1 {
     font-size: 4.5rem;
-}
-.carousel3__picture {
-
 }
 .carousel3__picture img {
     height: 90%;
@@ -718,6 +724,8 @@ body {
     font-weight: 600;
     margin: 1rem 0;
 }
+
+/*Feature colors and shape*/
 .prot {
     color: var(--color-3);
 }
@@ -861,13 +869,7 @@ body {
 .distributor__card:hover{
     box-shadow: 0 .4rem 2rem rgba(0, 0, 0, .2);
 }
-/* .distributor__card:hover .distributor__picture {
-    filter: drop-shadow(0 -.8rem 1rem rgba(0, 0, 0, .2));
-} */
-/* .distributor__card:not(:last-of-type) {
-    margin-right: 3rem;
-    position: relative;
-} */
+
 .distributor__card-details {
     max-width: 25rem;
     width: 70%;
@@ -884,6 +886,8 @@ body {
     border-radius: 50%;
     position: absolute;
 }
+
+/* Distributor card picture ring*/
 .ring1 {
     border: 2px solid var(--color-4);
 }
@@ -933,7 +937,7 @@ body {
     margin-bottom: 2rem;
 }
 
-
+/* Distributor shapes*/
 .dist__circle,
 .dist__square{
     display: none;
@@ -1007,9 +1011,7 @@ body {
 
 
 
-
 /*SECTION REACH*/
-
 
 .section__reach {
     min-height: 100vh;
@@ -1035,8 +1037,8 @@ body {
 .section__reach--text {
 }
 
-/*SECTION TESTIMONY*/
 
+/*SECTION TESTIMONY*/
 
 .section__testimony {
     padding: 10rem;
@@ -1067,9 +1069,7 @@ body {
     margin: 0 2rem;
     margin-bottom: 7rem;
 }
-/* .testimony__card:not(:last-of-type) {
-    margin-right: 4rem;
-} */
+
 .testimony__card-top {
     display: flex;
     justify-content: space-between;
@@ -1186,7 +1186,7 @@ body {
 
 }
 
-
+/* Testimony shapes */
 .tcb1 {
     left: 50%;
     top: 17%;
