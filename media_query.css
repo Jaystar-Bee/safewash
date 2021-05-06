@@ -5,6 +5,8 @@
         font-size: 75%;
     }
 }
+
+/* 1200px */
 @media only screen and (max-width: 75em) {
     .carousel1__text {
         margin-right: -15rem;
@@ -31,7 +33,7 @@
     
 }
 
-
+/* 1000px */
 @media only screen and (max-width:62.5em) {
 
         html {
@@ -90,6 +92,8 @@
             padding: 10rem 16rem;
         }
 }
+
+/* 900px */
 @media only screen and (max-width: 56.25em){
     .contentration1 {
         bottom: 11.5%;
@@ -149,6 +153,8 @@
     }
 
 }
+
+/* 800px */
 @media only screen and (max-width: 50em) {
 
     html {
@@ -216,6 +222,8 @@
     }
 
 }
+
+/* 731.5px */
 @media only screen and (max-width: 45.7em) {
     .carousel1__picture img {
         margin-right: -25rem;
@@ -235,6 +243,8 @@
     }
 
 }
+
+/* 649.6px */
 @media only screen and (max-width: 40.6em ){
     
     html {
@@ -286,7 +296,7 @@
     }
 }
 
-
+/* 560px Mobile and Tablet Display */
 @media only screen and (max-width: 35em) {
     
     .section__carousel {
@@ -561,6 +571,8 @@
         background-size: 60%;
     }
 }
+
+/* 512px */
 @media only screen and (max-width: 32em) {
     
     .information__container {
@@ -587,6 +599,8 @@
         background-size: 70%;
     }
 }
+
+/* 448px */
 @media only screen and (max-width: 28em) {
     
     .section__information {
@@ -619,6 +633,8 @@
         background-size: 80%;
     }
 }
+
+/* 400px */
 @media only screen and (max-width: 25em) {
     .carousel1__text {
         font-size: 2.3rem;
@@ -633,6 +649,8 @@
         background-size: 100%;
     }
 }
+
+/* 320px */
 @media only screen and (max-width: 20em) {
     .carousel1__text {
         font-size: 2.3rem;
