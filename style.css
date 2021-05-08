@@ -170,7 +170,7 @@ body {
     color: #fff;
     padding: 1.5rem 2.5rem;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-family: 'Gilroy-Bold', sans-serif;
     outline: none;
     transition: background-color .5s;
@@ -941,6 +941,7 @@ body {
 .dist__square{
     display: none;
     position: absolute;
+    filter: blur(2);
 }
 
 .dist__circle-big {
@@ -954,7 +955,7 @@ body {
 .dist__circle {
     border-radius: 100rem;
     border: 3px solid var(--color-2);
-    opacity: .2;
+    opacity: .1;
 }
 .dist__square-big {
     width: 5rem;
@@ -1060,7 +1061,7 @@ body {
 }
 .testimony__card {
     position: relative;
-    max-width: 20rem;
+    width: 24rem;
     font-size: 1.4rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2);
     border-radius: 3px;
@@ -1081,8 +1082,8 @@ body {
     border-radius: 50%;
     position: absolute;
     z-index: 5;
-    top: -8%;
-    left: -12%;
+    top: -9%;
+    left: -10%;
 }
 .testimony1 {
     border: 2px solid #b84aa0b9;
@@ -1186,6 +1187,7 @@ body {
 }
 
 /* Testimony shapes */
+
 .tcb1 {
     left: 50%;
     top: 17%;
