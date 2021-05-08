@@ -35,7 +35,7 @@ html {
 body {
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.7;
+    line-height: 1.8;
     box-sizing: border-box;
     color: var(--color-8);
     width:100vw;
@@ -628,7 +628,7 @@ body {
 
 .section__features {
     padding: 7rem 10rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, .95) 40%, rgba(250, 176, 211, .95) 80%,  rgba(248, 186, 215, .95) 90%, rgba(255, 255, 255, 1) 100%), url('img/BQ\ Safewash\ baby\ blurred\ out\ 2\ 1.png');
     min-height: 100vh;
     background-position: start;
@@ -760,7 +760,7 @@ body {
 .section__about {
 
     padding: 10rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     position: relative;
 }
 .about {
@@ -1018,7 +1018,7 @@ body {
     display: flex;
     padding: 10rem;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .98) 50%, rgba(247, 175, 208, 0.95) 95%, rgba(245, 180, 209, 0.95) 100%), url('img/reach\ background.png');
     background-position: left bottom;
     position: relative;
@@ -1042,7 +1042,7 @@ body {
 
 .section__testimony {
     padding: 10rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     position: relative;
 }
 .section__testimony--heading {
@@ -1061,8 +1061,8 @@ body {
 }
 .testimony__card {
     position: relative;
-    width: 20rem;
-    font-size: 1.3rem;
+    max-width: 22rem;
+    font-size: 1.4rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2);
     border-radius: 3px;
     padding: 2rem;
@@ -1083,7 +1083,7 @@ body {
     position: absolute;
     z-index: 5;
     top: -10%;
-    left: -12%;
+    left: -11%;
 }
 .testimony1 {
     border: 2px solid #b84aa0b9;
@@ -1229,6 +1229,7 @@ body {
 .information__container-min {
     display: none;
     width: 100%;
+    margin: 0 1.4rem;
 }
 .information__container img {
     height: 7rem;
@@ -1242,12 +1243,12 @@ body {
 }
 .information__top {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
 }
 .information__bottom {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .customer h4,
 .information h4,
@@ -1255,7 +1256,8 @@ body {
 .customer-min h4,
 .information-min h4,
 .contact-min h4 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
@@ -1267,8 +1269,15 @@ body {
 .contact-min p a {
     color: var(--color-5);
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     transition: color .3s ease-in;
+    font-weight: 600;
+}
+.customer-min p a,
+.information-min p a,
+.contact-min p a {
+
+    margin-bottom: 1.2rem;
 }
 
 .customer p a:hover,
@@ -1281,8 +1290,8 @@ body {
 }
 
 .social__media a img{
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.7rem;
+    height: 1.7rem;
 }
 .social__media a:not(:last-of-type) {
     margin-right: .5rem;
@@ -1296,5 +1305,5 @@ body {
     font-size: 1.5rem;
 }
 .footer__text strong {
-    font-weight: 600;
+    font-weight: 700;
 }

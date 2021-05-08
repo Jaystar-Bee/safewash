@@ -247,9 +247,9 @@
 /* 649.6px */
 @media only screen and (max-width: 40.6em ){
     
-    html {
-        font-size: 50%;
-    }
+    /* html {
+        font-size: 55%;
+    } */
     .section__features-heading {
         width: 90%;
     }
@@ -426,7 +426,7 @@
     }
     .carousel4__text {
         font-size: 2.3rem;
-        width: 65%;
+        width: 70%;
         left: 4%;
         margin-top: 15rem;
     }
@@ -458,6 +458,9 @@
     }
     .features__picture-min {
         display: block;
+    }
+    .feature__list > p {
+        font-weight: 600;
     }
     .heading {
         font-size: 2.5rem;
@@ -623,10 +626,10 @@
         font-size: 3rem;
     }
     .carousel4__text {
-        font-size: 2rem;
+        font-size: 2.9rem;
     }
     .carousel4__text-1 {
-        font-size: 2.4rem;
+        font-size: 2.9rem;
     }
     .more__distributors,
     .search {
@@ -644,7 +647,7 @@
         font-size: 2.4rem;
     }
     .carousel1__text-1 {
-        font-size: 2.6rem;
+        font-size: 2.9rem;
     }
     .carousel2__picture img {
         margin-top: 2rem;
