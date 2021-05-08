@@ -1060,7 +1060,7 @@ body {
 }
 .testimony__card {
     position: relative;
-    max-width: 21rem;
+    max-width: 20rem;
     font-size: 1.4rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2);
     border-radius: 3px;
