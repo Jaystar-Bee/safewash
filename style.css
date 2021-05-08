@@ -43,7 +43,6 @@ body {
 
 }
 
-/*Navbar for Smartphone*/
 
 .navbar__checkbox {
     display: none;
@@ -1061,7 +1060,7 @@ body {
 }
 .testimony__card {
     position: relative;
-    max-width: 22rem;
+    max-width: 21rem;
     font-size: 1.4rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2);
     border-radius: 3px;

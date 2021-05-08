@@ -247,9 +247,9 @@
 /* 649.6px */
 @media only screen and (max-width: 40.6em ){
     
-    /* html {
-        font-size: 55%;
-    } */
+    html {
+        font-size: 50%;
+    }
     .section__features-heading {
         width: 90%;
     }
@@ -629,7 +629,7 @@
         font-size: 2.9rem;
     }
     .carousel4__text-1 {
-        font-size: 2.9rem;
+        font-size: 3rem;
     }
     .more__distributors,
     .search {
@@ -647,7 +647,7 @@
         font-size: 2.4rem;
     }
     .carousel1__text-1 {
-        font-size: 2.9rem;
+        font-size: 3rem;
     }
     .carousel2__picture img {
         margin-top: 2rem;
